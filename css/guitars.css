@@ -1,0 +1,27 @@
+.guit-image{
+    /* width: 40%; */
+    border: 1.5px solid var(--purple-solid);
+    text-align: center;
+    padding: 25px 10px;
+}
+
+.guit-top{
+    grid-area: top;
+    height: 280px;
+    border-bottom: none;
+    display: grid;
+    place-content: center;
+    padding-bottom: 500px;
+}
+
+.guit-banner{
+    display: grid;
+    grid-template-areas: 
+        "top top"
+        "left right"
+        "b-left b-right";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 280px 1fr 1fr;
+    place-content: center;
+    background: var(--brown);
+}

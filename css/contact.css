@@ -1,0 +1,33 @@
+.guit-contact {
+  background-color: var(--brown);
+  size: 10px;
+}
+
+.formdesign {
+  border: var(--dark-brown);
+  padding-left: 40em;
+  padding-top: 120px;
+  background-color: var(--brown);
+}
+
+.formdesign .input-group {
+  padding-bottom: 15px;
+  background-color: var(--brown);
+  align-items: center;
+  size: 12em;
+}
+
+.formdesign input[type="text"],
+.formdesign textarea {
+  width: 50%;
+  color: var(--dark-brown);
+}
+
+.formdesign input[type="submit"] {
+  background-color: var(--white);
+  color: var(--brown);
+  size: 20em;
+}
+.contact-img {
+  padding-bottom: 12em;
+}
